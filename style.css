@@ -9,12 +9,14 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(158, 88, 223);
+    background-color: grey;
 }
 .box{
     width: 500px;
     min-height: 500px;
-    background-color: white;
+    background-image: url("https://fffuel.co/images/dddepth-preview/dddepth-053.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     /* border: 5px solid rgb(238, 234, 14); */
     border: 10px solid;
   border-image-slice: 1;
@@ -31,22 +33,23 @@ main{
 .Todoap{
     width: 100%;
     max-width:540px;
+    position: relative;
     color: rgba(16, 133, 230, 0.938);
     margin:20px 5px;
-
 }
 .Todoap h2{
-    color: rgba(16, 133, 230, 0.938);
+    color: rgba(30, 16, 230, 0.938);
     display: flex;
     position: relative;
     cursor: pointer;
 }
-h2 img{
-    width: 30px;
+.Todoap i{
     position: absolute;
-    right: 0;
-    color: rgb(55, 13, 206);
-    cursor: pointer;
+    right: 10px;
+    top: 5px;
+    font-size: 30px;
+    color: rgb(12, 12, 12) !important;
+
 }
 #item{
     width: 100%;
